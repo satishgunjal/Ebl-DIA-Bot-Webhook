@@ -1,0 +1,25 @@
+{
+    "QRYRESULT": {
+        "ISSUCCESS": "Y",
+        "ACCOUNTINFO": [
+            {
+                "CUSTACCTNO": "1041100223541",
+                "ACCTDESC": "MD. ASRAFUL ISLAM",
+                "ACCTTYPE": "EBL Employee Salary Account",
+                "CURRENT_BALANCE": "86.36",
+                "ACY_AVL_BAL": "86.36",
+                "CURRENCY": "BDT",
+                "AC_CLASS_TYPE": "S"
+            },
+            {
+                "CUSTACCTNO": "1041440233291",
+                "ACCTDESC": "MD. ASRAFUL ISLAM",
+                "ACCTTYPE": "EBL Power Savings",
+                "CURRENT_BALANCE": "45.21",
+                "ACY_AVL_BAL": "45.21",
+                "CURRENCY": "BDT",
+                "AC_CLASS_TYPE": "S"
+            }
+        ]
+    }
+}

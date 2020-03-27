@@ -1,0 +1,311 @@
+
+20191222093037993|421f6273-b09b-4b18-95bc-3c96f3a09a0b|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222093056286|421f6273-b09b-4b18-95bc-3c96f3a09a0b|040.UserProvidesMobileNumber|01778582382|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222093116557|421f6273-b09b-4b18-95bc-3c96f3a09a0b|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1074****1684
+2. 1051****1506
+3. 1051****1528
+4. 1071****2918
+5. 1041****3208
+6. 1051****1539
+7. 1041****4103
+8. 1051****1492
+9. 1041****9203
+10. 1051****1517##
+20191222093131837|421f6273-b09b-4b18-95bc-3c96f3a09a0b|064.UserSelectsAccountNumber|4|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 1000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer-01778582382
+
+2. BDT 500 debit on 22-DEC-19 , 4679224405364058
+
+3. BDT 1250 debit on 22-DEC-19 , 36090164780271
+
+4. BDT 7500 debit on 22-DEC-19 , 4679223377287180
+
+5. BDT 10000 credit on 22-DEC-19 , EBL SKYBANKING Own Account Transfer; 467922******7180; ESB26685; 21060022; 186693#May I help you with anything else?#Yes,No
+20191222093404953|421f6273-b09b-4b18-95bc-3c96f3a09a0b|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222093506048|421f6273-b09b-4b18-95bc-3c96f3a09a0b|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1071****2918
+2. 1041****4103##
+20191222093659477|421f6273-b09b-4b18-95bc-3c96f3a09a0b|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222093801568|421f6273-b09b-4b18-95bc-3c96f3a09a0b|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222093844102|421f6273-b09b-4b18-95bc-3c96f3a09a0b|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1071****2918
+2. 1041****4103##
+20191222094604751|421f6273-b09b-4b18-95bc-3c96f3a09a0b|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222101810878|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222101823507|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|040.UserProvidesMobileNumber|01911234501|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222101852525|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1 
+1. 1111****7365
+2. 1141****9911##
+20191222101905622|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|064.UserSelectsAccountNumber|1|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1111****7365, Current Balance: ৳ 19647.27, Available Balance: ৳ 19647.27, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222101957892|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222102019533|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1111****7365
+2. 1141****9911##
+20191222102044192|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|064.UserSelectsAccountNumber|1|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. ৳ BDT 352.82 debit on 22-DEC-19 , PURCHASE TRANSACTION-GLORIA JEAN'S COFFEES  DHAKA          BD , 
+
+
+2. ৳ BDT 708 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer-01911234501 , 
+
+
+3. ৳ BDT 319.59 debit on 19-DEC-19 , 413401******3826;USD_SI , 
+
+
+4. ৳ BDT 2203.86 debit on 19-DEC-19 , 559581******7455;BDT_SI , 
+
+
+5. ৳ BDT 268.5 debit on 19-DEC-19 , 413401******3826;BDT_SI ,#May I help you with anything else?#Yes,No
+20191222102157787|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222102250120|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1111****7365
+2. 1141****9911##
+20191222102432306|7d1fb322-e3e8-41a6-9890-bcdc14fcce39|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|__system_counters__,awaiting_banking_choice,awaiting_main_menu_choice,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222103316200|8f86b40f-8b90-49e8-b863-ff1872fd294b|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222103510351|8f86b40f-8b90-49e8-b863-ff1872fd294b|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222104110295|ab7e5930-96cd-4a07-b795-9687db6463f4|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222104151973|bf2cd6c9-28aa-4b7d-a770-80d19827b136|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222104347955|ab7e5930-96cd-4a07-b795-9687db6463f4|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222104403348|bf2cd6c9-28aa-4b7d-a770-80d19827b136|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222105641152|ab7e5930-96cd-4a07-b795-9687db6463f4|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222105952840|ab7e5930-96cd-4a07-b795-9687db6463f4|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222110039806|ab7e5930-96cd-4a07-b795-9687db6463f4|040.UserProvidesMobileNumber|01911234501|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222110115971|ab7e5930-96cd-4a07-b795-9687db6463f4|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1 
+1. 1111****7365
+2. 1141****9911##
+20191222110121202|ab7e5930-96cd-4a07-b795-9687db6463f4|064.UserSelectsAccountNumber|1|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1111****7365, Current Balance: ৳ 19647.27, Available Balance: ৳ 19647.27, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222110130779|ab7e5930-96cd-4a07-b795-9687db6463f4|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222110138771|ab7e5930-96cd-4a07-b795-9687db6463f4|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1111****7365
+2. 1141****9911##
+20191222110143885|ab7e5930-96cd-4a07-b795-9687db6463f4|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 200 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer - Zak-01911234501
+
+2. BDT 200000 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer - papa
+
+3. BDT 33.89 debit on 28-NOV-19 , WITHOLDING SOURCE TAX ON CASA ACCOUNTS
+
+4. BDT 338.89 credit on 28-NOV-19 , IC INTEREST LIQUIDATION
+
+5. BDT 500000 debit on 24-NOV-19 , EBL SKYBANKING EBL Account Transfer - Loan#May I help you with anything else?#Yes,No
+20191222110423820|ab7e5930-96cd-4a07-b795-9687db6463f4|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222110556840|ab7e5930-96cd-4a07-b795-9687db6463f4|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1111****7365
+2. 1141****9911##
+20191222111124690|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222111128995|51905a0b-e3e8-e861-679f-e8934859b9ed|040.UserProvidesMobileNumber|01783400500|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222111626810|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222111629776|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1 
+1. 1011****6979
+2. 1011****9645##
+20191222111633781|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|1|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1011****6979, Current Balance: ৳ 0, Available Balance: ৳ 0, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222111640650|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222112323617|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222112405199|51905a0b-e3e8-e861-679f-e8934859b9ed|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1011****6979
+2. 1011****9645##
+20191222112432095|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222112541848|bf2cd6c9-28aa-4b7d-a770-80d19827b136|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222113814116|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114026096|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114132714|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114349454|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114418623|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114523665|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114835559|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222114944208|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222115235735|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222115445166|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222115733594|ebdc573b-d6d7-4f47-ae07-9ae52cd9b774|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222115828235|ebdc573b-d6d7-4f47-ae07-9ae52cd9b774|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222115905047|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222115911428|51905a0b-e3e8-e861-679f-e8934859b9ed|040.UserProvidesMobileNumber|01783400500|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222115925081|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|1|getBankAccountLast5Txn|timeout|timeout|awaiting_account_info_type,__system_counters__,|awaiting_account_info_type,session_vars,|Sorry. It seems that the response from our end was delayed#What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222120023682|793c9c33-a25d-462d-83e5-5527c78ce0a5|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222120214473|793c9c33-a25d-462d-83e5-5527c78ce0a5|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222120224367|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222120230772|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1011****6979
+2. 1011****9645##
+20191222120240803|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|timeout|timeout|awaiting_account_number,__system_counters__,|session_vars,|#May I help you with anything else?#Yes,No
+20191222120820087|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222120834985|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222120841366|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1011****6979
+2. 1011****9645##
+20191222120855322|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 5000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer
+
+2. BDT 200 debit on 15-DEC-19 , 01783400500
+
+3. BDT 5244 credit on 15-DEC-19 , EFT INFLOW -  BANGLADESH BANK, SP INTEREST (GPO, Government, BUSINESS DATE: 12-12-19
+
+4. BDT 700 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500
+
+5. BDT 500 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500#May I help you with anything else?#Yes,No
+20191222121611834|793c9c33-a25d-462d-83e5-5527c78ce0a5|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222121744766|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222121751334|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1011****6979
+2. 1011****9645##
+20191222121755005|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|1|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. ৳ BDT 215.83 debit on 10-DEC-19 , 437848******7506;BDT_SI , 
+
+
+2. ৳ BDT 40000 debit on 08-DEC-19 , EBL SKYBANKING Own Account Transfer , 
+
+
+3. ৳ BDT 15 debit on 08-DEC-19 , ATM Cash Withdrawal - Remote on us-DUTCH BANGLA BANK LTD    DHAKA        BD , 
+
+
+4. ৳ BDT 5000 debit on 08-DEC-19 , ATM Cash Withdrawal - Remote on us-DUTCH BANGLA BANK LTD    DHAKA        BD , 
+
+
+5. ৳ BDT 5000 debit on 08-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500 ,#May I help you with anything else?#Yes,No
+20191222121803336|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222121803450|793c9c33-a25d-462d-83e5-5527c78ce0a5|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222121844425|793c9c33-a25d-462d-83e5-5527c78ce0a5|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222121929067|793c9c33-a25d-462d-83e5-5527c78ce0a5|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222122147830|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222122155293|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1011****6979
+2. 1011****9645##
+20191222122204304|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 5000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer
+
+2. BDT 200 debit on 15-DEC-19 , 01783400500
+
+3. BDT 5244 credit on 15-DEC-19 , EFT INFLOW -  BANGLADESH BANK, SP INTEREST (GPO, Government, BUSINESS DATE: 12-12-19
+
+4. BDT 700 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500
+
+5. BDT 500 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500#May I help you with anything else?#Yes,No
+20191222122217546|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222122226883|1c066953-f291-490b-97bc-c88346d49c58|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222122249104|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222122250519|1c066953-f291-490b-97bc-c88346d49c58|040.UserProvidesMobileNumber|01778582382|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222122306585|1c066953-f291-490b-97bc-c88346d49c58|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1 
+1. 1074****1684
+2. 1051****1506
+3. 1051****1528
+4. 1071****2918
+5. 1041****3208
+6. 1051****1539
+7. 1041****4103
+8. 1051****1492
+9. 1041****9203
+10. 1051****1517##
+20191222122315480|1c066953-f291-490b-97bc-c88346d49c58|064.UserSelectsAccountNumber|7|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1041****4103, Current Balance: ৳ 59, Available Balance: ৳ 59, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222122348694|1c066953-f291-490b-97bc-c88346d49c58|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222122353438|1c066953-f291-490b-97bc-c88346d49c58|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1074****1684
+2. 1051****1506
+3. 1051****1528
+4. 1071****2918
+5. 1041****3208
+6. 1051****1539
+7. 1041****4103
+8. 1051****1492
+9. 1041****9203
+10. 1051****1517##
+20191222122403676|1c066953-f291-490b-97bc-c88346d49c58|064.UserSelectsAccountNumber|7|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 200 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer
+
+2. BDT 100 debit on 19-DEC-19 , 01792976940
+
+3. BDT 1 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer
+
+4. BDT 60 debit on 12-DEC-19 , 01718441224
+
+5. BDT 500 debit on 01-DEC-19 , EBL ATM Cash Withdrawal-EBL DC L 5 CRM0000     Bangladesh   BD#May I help you with anything else?#Yes,No
+20191222123441064|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222123602314|421834f7-5b0b-4a30-bf79-eb23bfc0715e|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222123620739|421834f7-5b0b-4a30-bf79-eb23bfc0715e|040.UserProvidesMobileNumber|01841800311|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222123635602|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Credit Card,Prepaid Card,Mobile Recharge
+20191222123637697|421834f7-5b0b-4a30-bf79-eb23bfc0715e|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_anything_else_choice,session_vars,|Your Account Number: 1011****6395, Current Balance: 454265.14, Available Balance: 454265.14, Account Currency: BDT.#May I help you with anything else?#Yes,No
+20191222123649606|421834f7-5b0b-4a30-bf79-eb23bfc0715e|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222123701653|421834f7-5b0b-4a30-bf79-eb23bfc0715e|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 10 debit on 22-DEC-19 , Mobile recharge through DIA
+
+2. BDT 15000 debit on 19-DEC-19 , EBL ATM Cash Withdrawal-EBL HEAD OFFICE CRM000 Bangladesh   BD
+
+3. BDT 10000 debit on 17-DEC-19 , EBL ATM Cash Withdrawal-EBL HQ ATM01000        Bangladesh   BD
+
+4. BDT 10000 debit on 15-DEC-19 , EBL ATM Cash Withdrawal-EBL MOHAKHALI AMTOLI A Bangladesh   BD
+
+5. BDT 10000 debit on 12-DEC-19 , EBL ATM Cash Withdrawal-EBL HQ ATM01000        Bangladesh   BD#May I help you with anything else?#Yes,No
+20191222130208469|f6649dc1-8e47-4f96-a4c7-b98447f831b6|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222130238436|f6649dc1-8e47-4f96-a4c7-b98447f831b6|040.UserProvidesMobileNumber|01841800311|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222130251539|f6649dc1-8e47-4f96-a4c7-b98447f831b6|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 10 debit on 22-DEC-19 , Mobile recharge through DIA
+
+2. BDT 15000 debit on 19-DEC-19 , EBL ATM Cash Withdrawal-EBL HEAD OFFICE CRM000 Bangladesh   BD
+
+3. BDT 10000 debit on 17-DEC-19 , EBL ATM Cash Withdrawal-EBL HQ ATM01000        Bangladesh   BD
+
+4. BDT 10000 debit on 15-DEC-19 , EBL ATM Cash Withdrawal-EBL MOHAKHALI AMTOLI A Bangladesh   BD
+
+5. BDT 10000 debit on 12-DEC-19 , EBL ATM Cash Withdrawal-EBL HQ ATM01000        Bangladesh   BD#May I help you with anything else?#Yes,No
+20191222131230626|9f07681e-e137-48e5-97b9-0719957305c6|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222131243116|9f07681e-e137-48e5-97b9-0719957305c6|040.UserProvidesMobileNumber|01911234501|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222131319760|9f07681e-e137-48e5-97b9-0719957305c6|151.UserConfirmsMobileRechargeAmount|Yes|0|mobileRecharge|success|na|awaiting_mobile_recharge_amount_confirmation,__system_counters__,|awaiting_account_number_for_mobile_recharge,session_vars,|Please type in the serial number of the account number you wish to pay the mobile recharge bill from. For example to pay the bill from 1st account, type 1.
+1. 1111****7365
+2. 1141****9911##
+20191222132805832|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222132812643|51905a0b-e3e8-e861-679f-e8934859b9ed|040.UserProvidesMobileNumber|01783400500|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222132824871|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now? 
+1. 1011****6979
+2. 1011****9645##
+20191222132832248|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are: 
+
+1. BDT 5000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer
+
+2. BDT 200 debit on 15-DEC-19 , 01783400500
+
+3. BDT 5244 credit on 15-DEC-19 , EFT INFLOW -  BANGLADESH BANK, SP INTEREST (GPO, Government, BUSINESS DATE: 12-12-19
+
+4. BDT 700 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500
+
+5. BDT 500 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500#May I help you with anything else?#Yes,No
+20191222133156001|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133203261|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now?  1. 1011****6979 2. 1011****9645##
+20191222133211124|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|2|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are:   1. BDT 5000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer  2. BDT 200 debit on 15-DEC-19 , 01783400500  3. BDT 5244 credit on 15-DEC-19 , EFT INFLOW -  BANGLADESH BANK, SP INTEREST (GPO, Government, BUSINESS DATE: 12-12-19  4. BDT 700 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500  5. BDT 500 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500#May I help you with anything else?#Yes,No
+20191222133330893|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133334982|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133338766|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|5|1|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|awaiting_account_number,session_vars,|Sorry, account number is not matching. Please select or enter last four digits of account number 1. 1011****6979 2. 1011****9645##
+20191222133359584|51905a0b-e3e8-e861-679f-e8934859b9ed|065.UserSelectsAccountNumber_Fallback|9645|null|increaseNoOfTries|success||||##
+20191222133628329|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133632229|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133636088|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|5|1|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|awaiting_account_number,session_vars,|Sorry, account number is not matching. Please select or enter last four digits of account number 1. 1011****6979 2. 1011****9645##
+20191222133640319|51905a0b-e3e8-e861-679f-e8934859b9ed|065.UserSelectsAccountNumber_Fallback|9645|null|increaseNoOfTries|success||||##
+20191222133716159|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133720474|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133733784|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|1011****9645|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1011****9645, Current Balance: ৳ 19044.08, Available Balance: ৳ 19044.08, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222133741456|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133748463|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133756093|51905a0b-e3e8-e861-679f-e8934859b9ed|065.UserSelectsAccountNumber_Fallback|9645|null|increaseNoOfTries|success||||##
+20191222133906756|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133910358|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133918587|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|6979|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1011****6979, Current Balance: ৳ 0, Available Balance: ৳ 0, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222133927812|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222133932415|51905a0b-e3e8-e861-679f-e8934859b9ed|060.UserSelectsAccountBalance|Account Balance|0|getBankAccountBalance|success|na|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|Please type serial number of account number you wish to see information of. For example to see first account's information type 1  1. 1011****6979 2. 1011****9645##
+20191222133937651|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|9645|0|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|session_vars,|Your Account Number: 1011****9645, Current Balance: ৳ 19044.08, Available Balance: ৳ 19044.08, Account Currency: BDT#May I help you with anything else?#Yes,No
+20191222134320388|51905a0b-e3e8-e861-679f-e8934859b9ed|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222134459543|51905a0b-e3e8-e861-679f-e8934859b9ed|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,awaiting_main_menu_choice,__system_counters__,|session_vars,|#Okay! What information may I help you with?#Account Balance,Last 5 Transactions,Mobile Recharge
+20191222134505484|51905a0b-e3e8-e861-679f-e8934859b9ed|063.UserSelectsAccountInfoType_Fallback|2|null|increaseNoOfTries|success||||##
+20191222134506412|51905a0b-e3e8-e861-679f-e8934859b9ed|061.UserSelectsAccountLast5Txn|Last 5 Transactions|0|getBankAccountLast5Txn|success|success|awaiting_account_info_type,__system_counters__,|awaiting_account_number,session_vars,|You have multiple accounts with EBL. Which account account’s last 5 transactions do you want to view now?  1. 1011****6979 2. 1011****9645##
+20191222134508869|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|5|1|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|awaiting_account_number,session_vars,|Sorry, account number is not matching. Please select or enter last four digits of account number  1. 1011****6979 2. 1011****9645##
+20191222134524166|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|25|2|getBalanceAndLast5TxnByAccountNumber|success|na|awaiting_account_number,__system_counters__,|awaiting_account_number,session_vars,|Sorry, account number is not matching. Please select or enter last four digits of account number  1. 1011****6979 2. 1011****9645##
+20191222134532323|51905a0b-e3e8-e861-679f-e8934859b9ed|064.UserSelectsAccountNumber|9645|0|getBalanceAndLast5TxnByAccountNumber|success|success|awaiting_account_number,__system_counters__,|session_vars,|Your last transaction details are:   1. BDT 5000 debit on 22-DEC-19 , EBL SKYBANKING EBL Account Transfer  2. BDT 200 debit on 15-DEC-19 , 01783400500  3. BDT 5244 credit on 15-DEC-19 , EFT INFLOW -  BANGLADESH BANK, SP INTEREST (GPO, Government, BUSINESS DATE: 12-12-19  4. BDT 700 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500  5. BDT 500 debit on 15-DEC-19 , EBL SKYBANKING EBL Account Transfer-01783400500#May I help you with anything else?#Yes,No
+20191222134842652|ab0000cf-a666-45d0-a822-1c2897d3f0e8|020.UserSelectsAccountInformation|Account Information|0|updateAccountServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##
+20191222134912670|ab0000cf-a666-45d0-a822-1c2897d3f0e8|040.UserProvidesMobileNumber|01778582382|0|verifyMobileNumberAndGetOtp|success|success|awaiting_account_info_type,awaiting_mobile_number,__system_counters__,|session_vars,|Please enter the OTP(one time password) you have received to confirm your identity.##
+20191222135037251|ab0000cf-a666-45d0-a822-1c2897d3f0e8|021.UserSelectsCardInformation|Card Information|0|updateCardServiceType|success|na|awaiting_banking_choice,__system_counters__,|session_vars,|I can surely help you with that. But first I need to check your identity##

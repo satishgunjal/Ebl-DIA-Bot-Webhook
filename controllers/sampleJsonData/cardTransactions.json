@@ -1,0 +1,59 @@
+{
+    "QRYRESULT": {
+        "ISSUCCESS": "Y",
+        "EBLCRD_OUTPUT": {
+            "P_RESULT_SET": {
+                "ITEM": [
+                    {
+                        "MICROFILM_REF_NUMBER": "71111119100072008402060",
+                        "MICROFILM_REF_SEQ": "0.0",
+                        "STATEMENT_DATE": "05/05/2019",
+                        "DUE_DATE": "10/04/2019",
+                        "VALUE_DATE": "10/04/2019",
+                        "POSTING_DATE": "10/04/2019",
+                        "TRANSACTION_DESCRIPTION": "PMT RECV IBANKING - THANK YOU",
+                        "CARD_NUMBER": "4378483599564089",
+                        "TRANSACTION_CODE": "5K",
+                        "TRANSACTION_SIGN": "C",
+                        "BILLING_CURRENCY": "USD",
+                        "BILLING_AMOUNT": "100.06",
+                        "LAST_INTEREST_AMOUNT": "0.0",
+                        "LAST_CHARGE_VALUE_DAYS": "0.0"
+                    },
+                    {
+                        "MICROFILM_REF_NUMBER": "74585199096016369700025",
+                        "MICROFILM_REF_SEQ": "1.0",
+                        "STATEMENT_DATE": "05/05/2019",
+                        "DUE_DATE": "20/05/2019",
+                        "VALUE_DATE": "07/04/2019",
+                        "POSTING_DATE": "07/04/2019",
+                        "TRANSACTION_DESCRIPTION": "Future Value Retail Ltd",
+                        "CARD_NUMBER": "4378483599564089",
+                        "TRANSACTION_CODE": "01",
+                        "TRANSACTION_SIGN": "D",
+                        "BILLING_CURRENCY": "USD",
+                        "BILLING_AMOUNT": "86.38",
+                        "LAST_INTEREST_AMOUNT": "0.0",
+                        "LAST_CHARGE_VALUE_DAYS": "31.0"
+                    },
+                    {
+                        "MICROFILM_REF_NUMBER": "74017559096000141909206",
+                        "MICROFILM_REF_SEQ": "1.0",
+                        "STATEMENT_DATE": "05/05/2019",
+                        "DUE_DATE": "20/05/2019",
+                        "VALUE_DATE": "07/04/2019",
+                        "POSTING_DATE": "07/04/2019",
+                        "TRANSACTION_DESCRIPTION": "GYPSY BOUTIQUE",
+                        "CARD_NUMBER": "4378483599564089",
+                        "TRANSACTION_CODE": "01",
+                        "TRANSACTION_SIGN": "D",
+                        "BILLING_CURRENCY": "USD",
+                        "BILLING_AMOUNT": "244.42",
+                        "LAST_INTEREST_AMOUNT": "0.0",
+                        "LAST_CHARGE_VALUE_DAYS": "31.0"
+                    }
+                ]
+            }
+        }
+    }
+}

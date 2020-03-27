@@ -1,0 +1,62 @@
+{
+    "QRYRESULT": {
+        "ISSUCCESS": "Y",
+        "TRNHISTORY": [
+            {
+                "SL_NO": "1",
+                "NBRACCOUNT": "1271470000516",
+                "TXNDATE": "05-NOV-19",
+                "DATVALUEDATE": "05-NOV-19",
+                "TXTREFERENCENO": "1016554193090067",
+                "DESCRIPTION": "AIT 5% on Intt Oct 19(Non-TIN)",
+                "TXNAMOUNT": "BDT 4.98",
+                "CODDRCR": "D",
+                "BALANCE": "99959.82"
+            },
+            {
+                "SL_NO": "2",
+                "NBRACCOUNT": "1271470000516",
+                "TXNDATE": "31-OCT-19",
+                "DATVALUEDATE": "01-NOV-19",
+                "TXTREFERENCENO": "127I147BDT 00002",
+                "DESCRIPTION": "WITHOLDING SOURCE TAX ON CASA ACCOUNTS",
+                "TXNAMOUNT": "BDT 9.96",
+                "CODDRCR": "D",
+                "BALANCE": 99964.8
+            },
+            {
+                "SL_NO": "3",
+                "NBRACCOUNT": "1271470000516",
+                "TXNDATE": "31-OCT-19",
+                "DATVALUEDATE": "01-NOV-19",
+                "TXTREFERENCENO": "127I147BDT 00001",
+                "DESCRIPTION": "IC INTEREST LIQUIDATION",
+                "TXNAMOUNT": "BDT 99.56",
+                "CODDRCR": "C",
+                "BALANCE": 99974.76
+            },
+            {
+                "SL_NO": "4",
+                "NBRACCOUNT": "1271470000516",
+                "TXNDATE": "29-OCT-19",
+                "DATVALUEDATE": "29-OCT-19",
+                "TXTREFERENCENO": "1048006193020161",
+                "DESCRIPTION": "EBL SKYBANKING EBL Account Transfer",
+                "TXNAMOUNT": "BDT 85000",
+                "CODDRCR": "C",
+                "BALANCE": 99875.2
+            },
+            {
+                "SL_NO": "5",
+                "NBRACCOUNT": "1271470000516",
+                "TXNDATE": "14-OCT-19",
+                "DATVALUEDATE": "14-OCT-19",
+                "TXTREFERENCENO": "108481",
+                "DESCRIPTION": "Cash",
+                "TXNAMOUNT": "BDT 80000",
+                "CODDRCR": "D",
+                "BALANCE": 14875.2
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "MobileRechargeBillPaymentDiaRes": {
+        "ISSUCCESS": "Y",
+        "EBL_REF_NO": "EBL_REF_NO",
+        "ERRCODE": "ERRCODE",
+        "AUTH_CODE": "AUTH_CODE"
+    }
+}
