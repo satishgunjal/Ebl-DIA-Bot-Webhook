@@ -19,7 +19,7 @@ const development = {
     usessl: 'on'
   },
   ebl: {
-    uri: 'http://192.168.3.54/apicbot/' ,
+    uri: 'http://ip/apicbot/' ,
     timeoutMs: 4000,
     otpTimeoutMs: 60000
   },
@@ -70,7 +70,7 @@ const production = {
     usessl: 'on'
   },
     ebl: {
-      uri: 'http://192.168.3.159/apicbot/' ,
+      uri: 'http://ip/apicbot/' ,
       timeoutMs: 4000,
       otpTimeoutMs: 60000  
     },
