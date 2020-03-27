@@ -479,7 +479,11 @@ exports.checkGreetingMessage = function(sessionId){
                 let jsonfile = path.join(__dirname, '"/../sampleJsonData/checkGreetingMessage.json');
                 logger.log('info','exports.checkGreetingMessage()>JSON file path= ' + jsonfile); 
                 fs.readFile(jsonfile, function (err, data) {
-                    resolve(JSON.parse(data));
+                    if(err){
+                        logger.log('error', err, { logId: sessionId});
+                    }else{
+                        resolve(JSON.parse(data));
+                    }                    
                 });
             }else{            
                 let options = {
